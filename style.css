@@ -80,4 +80,27 @@ display: flex;
 }
 .Carditem{
     flex: 1;
+    display: flex;
+    padding: 10px;
 }
+.HTMLCard{
+    flex: 1;
+    background-color: #010042;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.HTMLLogo{
+    flex: 1;
+    background-image: url(images/HTML\ Logolila.png);
+   background-size: contain;
+   background-repeat: no-repeat;
+   width: 60%;
+}
+.HTMLTextbox{
+    flex: 1;
+    display: flex;
+}
+
