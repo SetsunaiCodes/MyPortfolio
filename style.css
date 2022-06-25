@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0 10%;
+    background-color: #03001A;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.boxing{
+    border: 2px solid red;
+}
+
+.container1{
+    color: white;
+    height:650px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ImageMe{
+    height:300px;
+    width: 300px;
+    background-image: url(images/ProfileImage.jpg);
+    background-size: contain;
+    clip-path: circle();
+}
+.Introtext{
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.IntroImage{
+     flex: 1;
+     display: flex;
+     justify-content: flex-end;
+     align-items: center;
+}
+.MyNameis{
+    color: #696969;
+    font-size: 30px;
+    margin: 0;
+}
+.MyName{
+    font-size: 70px;
+    margin: 0;
+    color: #8F00D1;
+
+}
+.IdesignWebpages{
+    color: #696969;
+    font-size: 52px;
+    margin: 0;
+}
+.Skyisntthelimit{
+    color: #696969;
+    font-size: 60px;
+    margin: 40px 0 0 0;
+}
+.WebpageColor{
+    color: #8F00D1;
+}
+.isntColor{
+    color: #8F00D1;
+}
+.container2{
+    height:1200px;
+    display: flex;
+    flex-direction: column;
+}
+.WorkingHead{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 80px;
+}
+.Cards{
+flex: 1;
+display: flex;
+}
+.Carditem{
+    flex: 1;
+}
