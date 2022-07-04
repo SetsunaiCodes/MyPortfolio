@@ -6,20 +6,56 @@ body{
 .boxing{
     border: 2px solid red;
 }
+header{
+    display: flex;
+    background-color: #585858;
+}
+.logo{
+    flex: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    font-size: 20px;
+    
+}
+.headerlist{
+    font-size: 20px;
+    justify-content: flex-end;
+    flex: 1;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
 .container1intro{
     display: flex;
     height: 800px;
     width: auto;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.imageplaceholder{
+.imagecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+}
+.pb{
+    background-image: url(images/WhatsApp\ Image\ 2022-07-04\ at\ 11.55.56.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
     height: 150px;
     width: 150px;
+    border: 5px solid #13bac1;
+
 }
 .introtext{
     font-family: 'Josefin Sans', sans-serif;
-    color: #343434;
+    color: #585858;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,7 +63,108 @@ body{
 }
 .mynameis{
     font-size: 30px;
+    align-self: flex-start;
+    margin: 0;
+    padding: 0;
 }
 .nicopuelacher{
+    margin: 0;
+    padding: 0;
     font-size: 100px;
+    color: #13bac1;
+}
+.idesignweb{
+    font-size: 40px;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+.slogan{
+    margin: 0;
+    padding: 0;
+    font-size: 45px;
+}
+.tuerkis{
+    color: #13bac1;
+}
+.container2competencies{
+    height: 1200px;
+    width: auto;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    color: white;
+    background-color: #adadad;
+}
+.comcards{
+    height: 500px;
+    width: 400px;
+    background-color: #585858;
+    border-radius: 12px;
+    margin: 50px;
+}
+.htmlcardbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/HTML5bg.jpg);
+    border-radius: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.csscardbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/CSSbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.jscardbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/JSbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.netlifycardbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/Netlifybg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.formsubmitcardbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/Formsubmitbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.communicationbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/Communicationbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.htmlcard{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.csscard{
+    grid-column-start:2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.jscard{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
