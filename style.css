@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.boxng{
+.boxing{
     border: 2px solid red;
 }
 header{
@@ -233,6 +233,41 @@ header{
     justify-content: flex-start;
     align-items: center;
     font-size: 35px;
+}
+.container4socials{
+    height: 1200px;
+    display: grid;
+    width: auto;
+    color: white;
+    background-color: #adadad;
+}
+.con4item{
+    height: 550px;
+    width: 550px;
+}
+.upworklogo{
+    background-image: url(images/UpWorkLogo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.fiverrlogo{
+    background-image: url(images/Fiverr_Logo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 footer{
     display: flex;
