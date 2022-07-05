@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.boxing{
+.boxng{
     border: 2px solid red;
 }
 header{
@@ -224,6 +224,15 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 12px;
+}
+.container4socialsheading{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #adadad;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 35px;
 }
 footer{
     display: flex;
