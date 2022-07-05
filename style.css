@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.boxig{
+.boxing{
     border: 2px solid red;
 }
 header{
@@ -87,6 +87,15 @@ header{
 .tuerkis{
     color: #13bac1;
 }
+.container2heading{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #adadad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
 .container2competencies{
     height: 1200px;
     width: auto;
@@ -95,6 +104,8 @@ header{
     row-gap: 5px;
     color: white;
     background-color: #adadad;
+    justify-content: center;
+    align-items: center;
 }
 .comcards{
     font-family: 'Josefin Sans', sans-serif;
@@ -102,7 +113,23 @@ header{
     width: 400px;
     background-color: #585858;
     border-radius: 12px;
-    margin: 50px;
+    margin-left: 50px;
+    box-shadow: 3px 3px 4px #2d2d2d;
+}
+.cardheading{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    color: #13bac1;
+}
+.carddes{
+    padding-left: 20px;
+    font-size: 20px;
+}
+.comcardlist{
+    font-size: 18px;
 }
 .htmlcardbg{
     height: 250px;
@@ -170,13 +197,40 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
 }
+.container3myprojectsheading{
+    font-family: 'Josefin Sans', sans-serif;
+    color: #585858;
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+.container3myprojects{
+    height: 800px;
+    width: auto;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    color: white;
+    background-color:#f6f6f6;
+    justify-content: flex-start;
+    align-items: center;
+}
+.tupperwarebg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/Tupperwarecard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
 footer{
     display: flex;
     font-family: 'Josefin Sans', sans-serif;
     background-color: #585858;
-    color: white;
+    color: #f6f6f6;
     height: 40px;
     justify-content: center;
     align-items: center;
-
 }
