@@ -24,7 +24,7 @@ header{
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 12 px;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     padding-right: 15px;
@@ -206,14 +206,14 @@ header{
     font-size: 50px;
 }
 .container3myprojects{
-    height: 800px;
+    height: 600px;
     width: auto;
     display: grid;
     column-gap: 5px;
     row-gap: 5px;
     color: white;
     background-color:#2d2d2d;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
 }
 .tupperwarebg{
@@ -323,20 +323,17 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
 }
-.container5mysign{
-    height: 350px;
-    width: auto;
-    font-family: 'Josefin Sans', sans-serif;
-    color: white;
-    background-color: #2d2d2d;
+.mysignt{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 50px;  
-}
-.mysign{
+    font-family: 'Josefin Sans', sans-serif;
     height: 300px;
     width: 450px;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
 .container6formheading{
     font-family: 'Josefin Sans', sans-serif;
@@ -348,8 +345,11 @@ header{
     font-size: 35px;
 }
 .container6form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-family: 'Josefin Sans', sans-serif;
-    height: 1200px;
+    height: 800px;
     width: auto;
     color: white;
     background-color: #2d2d2d;
@@ -361,7 +361,7 @@ header{
     background-color: #898989;
     border-radius: 12px;
     padding: 18px;
-    margin: 0 20%;
+    margin: 0 30%;
 }
 .con6form{
     display: flex;
