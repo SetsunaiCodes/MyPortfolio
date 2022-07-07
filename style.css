@@ -8,7 +8,7 @@ body{
 }
 header{
     display: flex;
-    background-color: #585858;
+    background-color: #2d2d2d;
 }
 .logo{
     flex: 1;
@@ -90,7 +90,7 @@ header{
 .container2heading{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -103,7 +103,7 @@ header{
     column-gap: 5px;
     row-gap: 5px;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
     justify-content: center;
     align-items: center;
 }
@@ -114,7 +114,6 @@ header{
     background-color: #585858;
     border-radius: 12px;
     margin-left: 50px;
-    box-shadow: 3px 3px 4px #2d2d2d;
 }
 .cardheading{
     font-size: 25px;
@@ -199,8 +198,8 @@ header{
 }
 .container3myprojectsheading{
     font-family: 'Josefin Sans', sans-serif;
-    color: #585858;
-    background-color: #f6f6f6;
+    color: white;
+    background-color: #2d2d2d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +212,7 @@ header{
     column-gap: 5px;
     row-gap: 5px;
     color: white;
-    background-color:#f6f6f6;
+    background-color:#2d2d2d;
     justify-content: flex-start;
     align-items: center;
 }
@@ -248,7 +247,7 @@ header{
 .container4socialsheading{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -260,11 +259,19 @@ header{
     width: auto;
     justify-content: center;
     align-items: center;
-    column-gap: 12px;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
+}
+.container4socialsbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #898989;
+    border-radius: 12px;
+    padding: 18px;
 }
 .con4item{
+    margin: 0 10px;
     height: 200px;
     width: 200px;
 }
@@ -321,7 +328,7 @@ header{
     width: auto;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,17 +341,60 @@ header{
 .container6formheading{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     font-size: 35px;
 }
 .container6form{
+    font-family: 'Josefin Sans', sans-serif;
     height: 1200px;
     width: auto;
     color: white;
-    background-color: #adadad;
+    background-color: #2d2d2d;
+}
+.formbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #898989;
+    border-radius: 12px;
+    padding: 18px;
+    margin: 0 20%;
+}
+.con6form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputinfo{
+    height: 40px;
+    width: 600px;
+    margin: 5px 0;
+    padding-left: 10px;
+    border-radius: 12px;
+    border: none;
+}
+.inputmessage{
+    height: 40px;
+    width: 600px;
+    margin: 5px 0;
+    padding-left: 10px;
+    padding-bottom: 360px;
+    border-radius: 12px;
+    border: none;
+}
+.sendbtn{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 40px;
+    width: 600px;
+    margin: 5px 0;
+    border-radius: 12px;
+    border: none;
+    background-color: #13bac1;
+    color: white;
 }
 footer{
     display: flex;
