@@ -225,6 +225,26 @@ header{
     background-size: cover;
     border-radius: 12px;
 }
+.tupperwarecard{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.revivedbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/RvivedCardbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.revivedcard{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
 .container4socialsheading{
     font-family: 'Josefin Sans', sans-serif;
     color: white;
@@ -235,15 +255,18 @@ header{
     font-size: 35px;
 }
 .container4socials{
-    height: 1200px;
+    height: 300px;
     display: grid;
     width: auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 12px;
     color: white;
     background-color: #adadad;
 }
 .con4item{
-    height: 550px;
-    width: 550px;
+    height: 200px;
+    width: 200px;
 }
 .upworklogo{
     background-image: url(images/UpWorkLogo.png);
@@ -268,6 +291,60 @@ header{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end: 1;
+}
+.twitterlogo{
+    background-image: url(images/twitter-logo-1.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.Instalogo{
+    background-image: url(images/Instalogo.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    grid-column-start: 4;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.container5mysign{
+    height: 350px;
+    width: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #adadad;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;  
+}
+.mysign{
+    height: 300px;
+    width: 450px;
+}
+.container6formheading{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #adadad;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 35px;
+}
+.container6form{
+    height: 1200px;
+    width: auto;
+    color: white;
+    background-color: #adadad;
 }
 footer{
     display: flex;
