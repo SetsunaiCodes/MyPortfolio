@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.boxing{
+.boxig{
     border: 2px solid red;
 }
 header{
@@ -24,7 +24,7 @@ header{
     list-style-type: none;
     display: flex;
     align-items: center;
-    gap: 12 px;
+    gap: 12px;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
     padding-right: 15px;
@@ -254,6 +254,7 @@ header{
     font-size: 35px;
 }
 .container4socials{
+    font-family: 'Josefin Sans', sans-serif;;
     height: 300px;
     display: grid;
     width: auto;
@@ -269,26 +270,41 @@ header{
     background-color: #898989;
     border-radius: 12px;
     padding: 18px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
 }
-.con4item{
-    margin: 0 10px;
-    height: 200px;
-    width: 200px;
-}
-.upworklogo{
-    background-image: url(images/UpWorkLogo.png);
+.container4socialsboxbox{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-size: contain;
-    background-repeat: no-repeat;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #585858;
+}
+.con4item{
+    margin: 0 5px;
+    height: 100px;
+    width: 100px;
+}
+.Freelancecon{
+    margin-right: 10px;
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 1;
 }
-.fiverrlogo{
-    background-image: url(images/Fiverr_Logo.png);
+.Freeheading{
+    margin: 0;
+}
+.upworklogo{
+    background-image: url(images/UpWorkLogo.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -299,8 +315,8 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
 }
-.twitterlogo{
-    background-image: url(images/twitter-logo-1.png);
+.fiverrlogo{
+    background-image: url(images/Fiverr_Logo.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,8 +327,8 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
 }
-.Instalogo{
-    background-image: url(images/Instalogo.png);
+.twitterlogo{
+    background-image: url(images/twitter-logo-1.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -323,15 +339,15 @@ header{
     grid-row-start: 1;
     grid-row-end: 1;
 }
-.mysignt{
+.Instalogo{
+    background-image: url(images/Instalogo.png);
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
-    height: 300px;
-    width: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
     grid-column-start: 5;
-    grid-column-end: 6;
+    grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 1;
 }
@@ -345,56 +361,95 @@ header{
     font-size: 35px;
 }
 .container6form{
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    font-family: 'Josefin Sans', sans-serif;
-    height: 800px;
-    width: auto;
+    font-family: 'Josefin Sans' , sans-serif;
     color: white;
     background-color: #2d2d2d;
+    height: 800px;
+    width: auto;
 }
-.formbox{
-    display: flex;
+.con6boxtext{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 200px;
+    width: 350px;
     justify-content: center;
-    align-items: center;
-    background-color: #898989;
+    text-align: center;
+    display: flex;
+    background-color: #585858;
     border-radius: 12px;
     padding: 18px;
-    margin: 0 30%;
+    margin-right: 10px;
 }
-.con6form{
+.con6text{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-.inputinfo{
-    height: 40px;
+.con6formdes{
+    font-size: 20px;
+}
+.con6boxform{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 700px;
     width: 600px;
-    margin: 5px 0;
-    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    background-color: #585858;
+    border-radius: 12px;
+    padding: 18px; 
+    margin-left: 10px; 
+}
+.con6form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.formheading{
+    font-size: 30px;
+    margin: 0;
+}
+::placeholder{
+    color: white;
+}
+.inputtext{
+    background-color: #898989;
+    height: 50px;
+    width: 590px;
     border-radius: 12px;
     border: none;
+    padding-left: 10px;
+    margin: 10px 0;
 }
 .inputmessage{
-    height: 40px;
-    width: 600px;
-    margin: 5px 0;
+    background-color: #898989;
+    height: 50px;
+    width: 590px;
     padding-left: 10px;
-    padding-bottom: 360px;
+    padding-bottom: 250px;
     border-radius: 12px;
     border: none;
+    margin: 10px 0;
 }
 .sendbtn{
-    font-family: 'Josefin Sans', sans-serif;
-    height: 40px;
+    background-color: #13bac1;
+    font-family: 'Josefin Sans' , sans-serif;
+    color: white;
+    font-size: 18px;
+    height: 50px;
     width: 600px;
-    margin: 5px 0;
     border-radius: 12px;
     border: none;
-    background-color: #13bac1;
-    color: white;
+    margin: 10px 0;
 }
 footer{
     display: flex;
