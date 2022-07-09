@@ -13,7 +13,7 @@ text-decoration: none;
 a:hover {
     color: blue;
 }
-.boxng{
+.boxing{
     border: 2px solid red;
 }
 header{
@@ -518,7 +518,7 @@ footer{
 .container9DescriptionTW{
     display: flex;
     flex-direction: column;
-    height: 800px;
+    height: 2400px;
     width: auto;
     background-color: #2d2d2d;
     margin: 0 2%;
@@ -530,8 +530,71 @@ footer{
     align-items: center;
 }
 .con9content{
-    height: 500px;
+    height: 1500px;
     width: auto;
     background-color: #2d2d2d;
     display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.TWBoxtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 550px;
+    width: 600px;
+    background-color: #585858;
+    border-radius: 12px;
+    margin: 30px;
+    text-align: center;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+.TWheading{
+    font-size: 35px;
+}
+.TWBottomtext{
+    color: white;
+    font-size: 30px;
+    padding: 0 50px;
+}
+.TWboximage{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    width: 743px;
+    height: 391px;
+    background-color: #585858;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.TWimage{
+    width: 693px;
+    height: 341px;
+    background-image: url(images/ScreenshotTWNewsletter.JPG);
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.TWPossible{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 600px;
+    width: 800px;
+    background-color: #585858;
+    border-radius: 12px;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
 }
