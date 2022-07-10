@@ -13,7 +13,7 @@ text-decoration: none;
 a:hover {
     color: blue;
 }
-.boxing{
+.boxng{
     border: 2px solid red;
 }
 header{
@@ -192,6 +192,22 @@ header{
     background-size: cover;
     border-radius: 12px;
 }
+.powerpointbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/PowerPointcard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
+.thumbnailbg{
+    height: 250px;
+    width: 400px;
+    background-image: url(images/youtubecard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 12px;
+}
 .htmlcard{
     grid-column-start: 1;
     grid-column-end: 1;
@@ -209,6 +225,33 @@ header{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 1;
+}
+.thumbnailcard{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+
+}
+.Subsection1heading{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 35px;
+}
+.Subsection1{
+    height: 600px;
+    width: auto;
+    display: grid;
+    column-gap: 5px;
+    row-gap: 5px;
+    color: white;
+    background-color: #2d2d2d;
+    justify-content: center;
+    align-items: center;
 }
 .container3myprojectsheading{
     font-family: 'Josefin Sans', sans-serif;
@@ -490,7 +533,7 @@ footer{
     font-family: 'Josefin Sans', sans-serif;
 }
 .container7bg{
-    background-color: white;
+    background-color: #f6f6f6;
     height: 400px;
     width: auto;
 
@@ -510,6 +553,15 @@ footer{
     height: 375px;
     width: 525px;
     background-image: url(images/TupperwareOverlay.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -300px;
+    border-radius: 12px;
+}
+.ThumbnailOverlay{
+    width: 400px;
+    height: 250px;
+    background-image: url(images/youtubecardoverlay.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     margin-top: -300px;
@@ -536,6 +588,16 @@ footer{
     display: grid;
     justify-content: center;
     align-items: center;
+}
+.con9explain{
+    flex-direction: column;
+    height: 1000px;
+    width: auto;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
 }
 .TWBoxtext{
     display: flex;
@@ -597,4 +659,37 @@ footer{
     grid-column-end: 1;
     grid-row-start: 2;
     grid-row-end: 2;
+    margin-right: 50px;
+}
+.AlsoInterlist{
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+
+
+
+.GalleryBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #585858;
+    border-radius: 12px;
+    margin: 30px;
+}
+.GalleryThumb{
+    width: 1338px;
+    height: 1112px;
+    background-image: url(images/YouTubeThumbnail\ Gallery.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+}
+.Galleryheading{
+    font-size: 50px;
+    margin-bottom: 50px;
 }
