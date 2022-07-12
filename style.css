@@ -513,7 +513,7 @@ header{
     color: blue;
 }
 .AGBBox:hover{
-    color: darkblue;
+    color: #13bac1;
 }
 footer{
     display: flex;
@@ -567,10 +567,20 @@ footer{
     margin-top: -300px;
     border-radius: 12px;
 }
+.AboutMeOverlay{
+    width: 400px;
+    height: 250px;
+    background-image: url(images/AbaoutMeoverlay.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -300px;
+    border-radius: 12px;
+
+}
 .container9DescriptionTW{
     display: flex;
     flex-direction: column;
-    height: 5500px;
+    height: 1400px;
     width: auto;
     background-color: #2d2d2d;
     margin: 0 2%;
@@ -582,7 +592,15 @@ footer{
     align-items: center;
 }
 .con9content{
-    height: 1500px;
+    height: 1400px;
+    width: auto;
+    background-color: #2d2d2d;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.AboutMeContent{
+    height: 4000px;
     width: auto;
     background-color: #2d2d2d;
     display: grid;
@@ -591,7 +609,7 @@ footer{
 }
 .con9explain{
     flex-direction: column;
-    height: 5500px;
+    height: 1200px;
     width: auto;
     background-color: #2d2d2d;
     display: flex;
@@ -660,6 +678,32 @@ footer{
     grid-row-start: 2;
     grid-row-end: 2;
     margin-right: 50px;
+}
+.YTContainer{
+    display: flex;
+    flex-direction: column;
+    height: 4000px;
+    width: auto;
+    background-color: #2d2d2d;
+    margin: 0 2%;
+}
+.con9explainYT{
+    flex-direction: column;
+    height: 3250px;
+    width: auto;
+    background-color: #2d2d2d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+.AboutMeContainer{
+    display: flex;
+    flex-direction: column;
+    height: 4000px;
+    width: auto;
+    background-color: #2d2d2d;
+    margin: 0 2%;
 }
 .AlsoInterlist{
     margin: 0 0 20px 0;
@@ -733,4 +777,85 @@ footer{
 .Galleryheading{
     font-size: 50px;
     margin-bottom: 50px;
+}
+
+
+
+
+.ImageofMe{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    height: 450px;
+    width: 450px;
+}
+.Revivedimg{
+    height: 400px;
+    width: 400px;
+    background-image: url(images/Revivedimg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 12px;
+}
+.Me{
+    background-image: url(images/IMG-20220517-WA0012.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    height: 400px;
+    width: 400px;
+}
+.MyDatalist{
+    list-style-type: none;
+    color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+.HowdidIknow{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.Odinimage{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    height: 450px;
+    width: 450px;
+}
+.GamingTennis{
+    height: 450px;
+    width: 450px;
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 3;
+}
+.GamingTennisimg{
+    background-image: url(images/GamingTennis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+}
+.Odinlogo{
+    background-image: url(images/odin.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 12px;
+}
+.headerlist :hover{
+    color: #13bac1;
+}
+.AlsoInterlist :hover{
+    color: #13bac1;
 }
