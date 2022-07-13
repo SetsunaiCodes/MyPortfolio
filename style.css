@@ -13,7 +13,7 @@ text-decoration: none;
 a:hover {
     color: blue;
 }
-.boxing{
+.boxng{
     border: 2px solid red;
 }
 header{
@@ -558,6 +558,16 @@ footer{
     margin-top: -300px;
     border-radius: 12px;
 }
+.PowerPointOverlay{
+    height: 375px;
+    width: 525px;
+    background-image: url(images/PowerPointOverlay.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-top: -300px;
+    border-radius: 12px;
+}
 .ThumbnailOverlay{
     width: 400px;
     height: 250px;
@@ -705,6 +715,22 @@ footer{
     background-color: #2d2d2d;
     margin: 0 2%;
 }
+.PowerPointContainer{
+    display: flex;
+    flex-direction: column;
+    height: 4000px;
+    width: auto;
+    background-color: #2d2d2d;
+    margin: 0 2%;
+}
+.PowerPointContent{
+    height: 4000px;
+    width: auto;
+    background-color: #2d2d2d;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
 .AlsoInterlist{
     margin: 0 0 20px 0;
     padding: 0;
@@ -815,6 +841,12 @@ footer{
     padding: 0;
     font-size: 30px;
 }
+.HowitstartedPP{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
 .HowdidIknow{
     grid-column-start: 1;
     grid-column-end: 1;
@@ -844,6 +876,22 @@ footer{
     height: 400px;
     width: 400px;
     border-radius: 12px;
+}
+
+.PPUtopi{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.PPUtopiimg{
+    background-image: url(images/PPUtoia.JPG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 12px;
+    height: 432px;
+    width: 752px;
 }
 .Odinlogo{
     background-image: url(images/odin.jpg);
