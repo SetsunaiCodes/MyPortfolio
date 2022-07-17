@@ -1099,7 +1099,7 @@ footer{
     }
     .con6boxform{
         height: 600px;
-        width: 450px;
+        width: 350px;
         margin-left: 0;
         grid-column-start: 1;
         grid-column-end: 1;
@@ -1107,16 +1107,16 @@ footer{
         grid-row-end: 2;
     }
     .inputtext{
-        width: 400px;
+        width: 300px;
     }
     .AGBBOX{
-        width: 400px;
+        width: 300px;
     }
     .sendbtn{
-        width: 400px;
+        width: 300px;
     }
     .inputmessage{
-        width: 400px;
+        width: 300px;
     }
     .comcards{
         margin-left: 0;
