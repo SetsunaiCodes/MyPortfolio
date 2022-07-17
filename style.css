@@ -1121,5 +1121,168 @@ footer{
     .comcards{
         margin-left: 0;
     }
-
+    .con9explainYT{
+        height: 10000px;
+    }
+    .container8bg{
+        height: 200px;
+    }
+    .con9heading{
+        font-size: 20px;
+    }
+    .AboutMeContainer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 7000px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    .Revivedindex{
+        width: 396px;
+        height: 194.857px;
+    }
+    .Wixbox{
+        width: 396px;
+        height: 194.857px;
+    }
+    .Wixlogo{
+        background-size: contain;
+        background-position: center;
+    }
+    .RevivedOverlay{
+        margin-bottom: -100px;
+    }
+    .revivedcontent{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .con9content{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .TWimage{
+        width: 396px;
+        height: 194.857px; 
+    }
+    .container9DescriptionTW{
+        height: 2500px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
+    .AboutMeContent{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .ThumbnailOverlay{
+        margin-bottom: -100px;
+    }
+    .AboutMeOverlay{
+        margin-bottom: -100px;
+    }
+    .Galleryheading{
+        font-size: 30px;
+    }
+    .GalleryBox{
+        padding-bottom: 30px;
+        padding: 10px;
+        display: flex;
+        text-align: center;
+    }
+    .GalleryThumb{
+        width: 401.4px;
+        height: 333.6px;
+    }
+    .TWheading{
+        font-size: 30px;
+    }
+    .TWBottomtext{
+        font-size: 30px;
+    }
+    .Cookingthumbscontainer{
+        display: flex;
+        flex-direction: column;
+    }
+    .Cookingimg1{
+        width: 341.33px;
+        height: 192px;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .Cookingimg2{
+        width: 341.33px;
+        height: 192px;
+        margin-left: 0;
+    }
+    .MVimg1{
+        width: 341.33px;
+        height: 192px;
+        margin-right: 0;
+        margin-bottom: 25px;
+    }
+    .MVimg2{
+        width: 341.33px;
+        height: 192px;
+        margin-left: 0;
+    }
+    .MyData{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .ImageofMe{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .HowdidIknow{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .Odinimage{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    .Dontcode{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 5;
+    }
+    .GamingTennis{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 6;
+        grid-row-end: 6;
+    }
+    .Revived{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 7;
+        grid-row-end: 7;
+    }
+    .Revivedimg{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 8;
+        grid-row-end: 8;
+    }
+    .revivedcontainer{
+        height: 2900px;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+    }
 }
