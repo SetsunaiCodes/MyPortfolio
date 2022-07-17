@@ -13,7 +13,7 @@ text-decoration: none;
 a:hover {
     color: blue;
 }
-.boxng{
+.boxing{
     border: 2px solid red;
 }
 header{
@@ -577,6 +577,15 @@ footer{
     margin-top: -300px;
     border-radius: 12px;
 }
+.RevivedOverlay{
+    width: 400px;
+    height: 250px;
+    background-image: url(images/RevivedOverlay.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -300px;
+    border-radius: 12px;
+}
 .AboutMeOverlay{
     width: 400px;
     height: 250px;
@@ -673,6 +682,40 @@ footer{
     background-size: cover;
     background-repeat: no-repeat;
 }
+.WhatisRevived{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.Revivedindeximg{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+.Revivedindex{
+    width: 693px;
+    height: 341px;
+    background-image: url(images/Revivedindex.JPG);
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Wixbox{
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 2;
+}
+.Wixlogo{
+    width: 693px;
+    height: 341px;
+    background-image: url(images/Wix\ Logo.png);
+    border-radius: 12px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .TWPossible{
     text-align: center;
     display: flex;
@@ -722,6 +765,22 @@ footer{
     width: auto;
     background-color: #2d2d2d;
     margin: 0 2%;
+}
+.revivedcontainer{
+    display: flex;
+    flex-direction: column;
+    height: 2000px;
+    width: auto;
+    background-color: #2d2d2d;
+    margin: 0 2%;
+}
+.revivedcontent{
+    height: 2000px;
+    width: auto;
+    background-color: #2d2d2d;
+    display: grid;
+    justify-content: center;
+    align-items: center; 
 }
 .PowerPointContent{
     height: 4000px;
@@ -906,4 +965,152 @@ footer{
 }
 .AlsoInterlist :hover{
     color: #13bac1;
+}
+
+@media (max-width: 600px) {
+     .facet_sidebar { 
+        display: none; 
+    } 
+    .logo{
+        font-size: 25px;
+    }
+    header{
+        position: absolute;
+        max-width: 100%;
+    }
+    .headerlist{
+        font-size: 0px;
+    }
+    .container1intro{
+        height: 600px;
+        justify-content: center;
+    }
+    .mynameis{
+        align-self: center;
+        font-size: 30px;
+    }
+    .nicopuelacher{
+        font-size: 50px;
+    }
+    .idesignweb{
+        font-size: 30px;
+    }
+    .slogan{
+        font-size: 25px;
+    }
+    .container2competencies{
+        height: 3500px;
+    }
+    .container2heading{
+        font-size: 40px;
+    }
+    .container3myprojectsheading{
+        font-size: 40px;
+    }
+    .container4socialsheading{
+        font-size: 30px;
+    }
+    .Subsection1heading{
+        font-size: 25px;
+    }
+    .container6formheading{
+        font-size: 30px;
+    }
+    .htmlcard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+    }
+    .csscard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .jscard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+    .netlifycard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 4;  
+    }
+    .container3myprojects{
+        height: 1250px;
+    }
+    .revivedcard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .Subsection1{
+        height: 1250px;
+    }
+    .thumbnailcard{
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .container4socials{
+        flex-direction: column;
+        gap: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 675px;
+    }
+    .container4socialsboxbox{
+        margin-left: 0px;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .Freelancecon{
+        margin-right: 0px;
+    }
+    .container6form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        height: 1000px;
+    }
+    .con6boxtext{
+        margin-right: 0px;
+    }
+    .con6boxform{
+        height: 600px;
+        width: 450px;
+        margin-left: 0;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    .inputtext{
+        width: 400px;
+    }
+    .AGBBOX{
+        width: 400px;
+    }
+    .sendbtn{
+        width: 400px;
+    }
+    .inputmessage{
+        width: 400px;
+    }
+    .comcards{
+        margin-left: 0;
+    }
+
 }
