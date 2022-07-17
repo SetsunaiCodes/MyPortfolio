@@ -1064,9 +1064,18 @@ footer{
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 675px;
+        height: 850px;
+    }
+    .container4socialsbox{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        margin-bottom: 20px;
     }
     .container4socialsboxbox{
+        width: 370px;
         margin-left: 0px;
         grid-column-start: 1;
         grid-column-end: 1;
